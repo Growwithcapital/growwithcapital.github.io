@@ -30,35 +30,34 @@ body {
 
 /* HERO BACKGROUND */
 .hero {
+  position: relative;
+  height: 620px;
   background: url("hero-bg.png") no-repeat center center;
-  background-size: cover;
-  padding: 80px 0;
+  background-size: contain;
 }
 
-.hero-inner {
+.hero-content {
+  position: relative;
   max-width: 1200px;
   margin: auto;
-  display: flex;
-  align-items: center;
+  padding: 100px 60px;
 }
 
-/* LEFT SIDE */
-.hero-text {
-  width: 50%;
-}
-
-.hero-text h1 {
+/* TEXT */
+.hero h1 {
   font-size: 48px;
   color: #0b0f3a;
-}
-
-.hero-text p {
-  margin: 20px 0;
-  font-size: 16px;
-  color: #333;
   max-width: 500px;
 }
 
+.hero p {
+  margin: 20px 0;
+  max-width: 480px;
+  font-size: 16px;
+  color: #333;
+}
+
+/* BUTTON */
 .btn {
   display: inline-block;
   padding: 12px 28px;
@@ -68,7 +67,7 @@ body {
   text-decoration: none;
 }
 
-/* INLINE PRODUCTS */
+/* PRODUCTS INLINE */
 .home-products {
   display: flex;
   gap: 40px;
@@ -80,7 +79,7 @@ body {
 }
 
 .home-products img {
-  height: 40px;
+  height: 36px;
 }
 
 .home-products span {
@@ -89,19 +88,13 @@ body {
   font-weight: 600;
 }
 
-/* RIGHT SIDE */
-.hero-image {
-  width: 50%;
-  position: relative;
-}
-
-/* CONTACT BOX */
+/* CONTACT BOX — OVER IMAGE */
 .contact-box {
   position: absolute;
-  bottom: 0;
-  right: 0;
+  right: 80px;
+  bottom: 80px;
   background: #0b0f3a;
-  color: #fff;
+  color: white;
   padding: 20px 25px;
   border-radius: 10px;
   width: 280px;
