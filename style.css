@@ -6,11 +6,12 @@
 }
 
 body {
-  color: #0b0d3a;
+  background: #fff;
+  color: #0b0f2a;
 }
 
-/* HEADER */
-.header {
+/* NAVBAR */
+.navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -21,103 +22,96 @@ body {
   height: 45px;
 }
 
-nav a {
-  margin-left: 25px;
+.navbar nav a {
+  margin-left: 30px;
   text-decoration: none;
+  color: #0b0f2a;
   font-weight: 600;
-  color: #0b0d3a;
 }
 
 /* HERO */
 .hero {
   display: flex;
   padding: 60px;
-  align-items: center;
-}
-
-.hero-left {
-  width: 50%;
-}
-
-.hero-left h1 {
-  font-size: 44px;
-  margin-bottom: 20px;
-}
-
-.hero-left p {
-  font-size: 17px;
-  line-height: 1.6;
-  margin-bottom: 25px;
-}
-
-.btn {
-  display: inline-block;
-  padding: 12px 26px;
-  background: #0b0d3a;
-  color: #fff;
-  border-radius: 8px;
-  text-decoration: none;
-  font-weight: 600;
-}
-
-/* INLINE PRODUCTS */
-.home-products {
-  display: flex;
-  gap: 40px;
-  margin-top: 40px;
-}
-
-.home-product {
-  text-align: center;
-}
-
-.home-product img {
-  height: 55px;
-  margin-bottom: 8px;
-}
-
-.home-product span {
-  font-weight: 600;
-}
-
-/* RIGHT SIDE */
-.hero-right {
-  width: 50%;
   position: relative;
 }
 
-.hero-right img {
-  width: 100%;
-  border-radius: 16px;
+.hero-content {
+  width: 55%;
 }
 
-.contact-panel {
-  position: absolute;
-  bottom: 20px;
-  right: 20px;
-  background: #0b0d3a;
-  color: #fff;
-  padding: 20px;
-  border-radius: 12px;
-  font-size: 14px;
-  line-height: 1.6;
-}
-
-/* ABOUT */
-.about {
-  padding: 80px 60px;
-  text-align: center;
-}
-
-.about h2 {
-  font-size: 32px;
+.hero-content h1 {
+  font-size: 48px;
   margin-bottom: 20px;
 }
 
-/* FOOTER */
-footer {
-  padding: 25px;
+.hero-content p {
+  font-size: 16px;
+  max-width: 500px;
+  margin-bottom: 30px;
+}
+
+.btn {
+  background: #0b0f2a;
+  color: #fff;
+  padding: 12px 25px;
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+/* PRODUCT PREVIEW */
+.product-preview {
+  display: flex;
+  margin-top: 50px;
+  gap: 40px;
+}
+
+.product-card {
   text-align: center;
-  font-size: 13px;
-  background: #f4f4f4;
+}
+
+.product-card img {
+  height: 60px;
+  margin-bottom: 10px;
+}
+
+/* RIGHT PANEL */
+.hero-side {
+  width: 45%;
+  position: relative;
+}
+
+.hero-image {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* CONTACT BOX */
+.contact-box {
+  background: #0b0f2a;
+  color: #fff;
+  padding: 20px;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  border-radius: 8px;
+}
+
+/* PRODUCTS PAGE */
+.products-page {
+  padding: 80px;
+}
+
+.products-page h1 {
+  margin-bottom: 40px;
+}
+
+.product-detail {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.product-detail img {
+  height: 80px;
 }
