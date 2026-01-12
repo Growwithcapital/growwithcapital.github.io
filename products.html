@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Our Products | Grow With Capital</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-<header class="header">
-  <div class="container header-flex">
-    <img src="images/logo.png" class="logo">
+<header class="navbar">
+  <div class="container nav-wrap">
+    <img src="images/logo.png" alt="Grow With Capital" class="logo" />
     <nav>
       <a href="index.html">Home</a>
       <a href="products.html">Our Products</a>
@@ -18,17 +19,31 @@
   </div>
 </header>
 
-<div class="container">
-  <h1 style="margin:40px 0 20px;">Our Products</h1>
+<section class="products-page">
+  <div class="container">
+    <h1>Our Products</h1>
 
-  <p><strong>Mutual Funds</strong> – Equity, Debt and Hybrid funds aligned with your goals.</p><br>
-  <p><strong>Fixed Deposits</strong> – Corporate fixed deposits with attractive returns.</p><br>
-  <p><strong>Bonds / NCDs</strong> – Carefully selected debt instruments.</p>
-</div>
+    <div class="cards">
+      <div class="card">
+        <img src="images/mf.png">
+        <h3>Mutual Funds</h3>
+        <p>Equity, Debt & Hybrid solutions for long-term wealth creation.</p>
+      </div>
 
-<footer class="footer">
-  <p>Mutual fund investments are subject to market risks.</p>
-</footer>
+      <div class="card">
+        <img src="images/fd.png">
+        <h3>Fixed Deposits</h3>
+        <p>Safe and stable returns with trusted institutions.</p>
+      </div>
+
+      <div class="card">
+        <img src="images/bonds.png">
+        <h3>Bonds & NCDs</h3>
+        <p>High-quality bonds offering predictable income.</p>
+      </div>
+    </div>
+  </div>
+</section>
 
 </body>
 </html>
