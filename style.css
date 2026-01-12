@@ -6,8 +6,7 @@
 }
 
 body {
-  background: #fff;
-  color: #0b0f2a;
+  background: #ffffff;
 }
 
 /* NAVBAR */
@@ -18,100 +17,97 @@ body {
   padding: 20px 60px;
 }
 
-.logo {
-  height: 45px;
+.navbar .logo {
+  height: 40px;
 }
 
 .navbar nav a {
   margin-left: 30px;
   text-decoration: none;
-  color: #0b0f2a;
   font-weight: 600;
+  color: #0b0f3a;
 }
 
-/* HERO */
+/* HERO BACKGROUND */
 .hero {
+  background: url("hero-bg.png") no-repeat center center;
+  background-size: cover;
+  padding: 80px 0;
+}
+
+.hero-inner {
+  max-width: 1200px;
+  margin: auto;
   display: flex;
-  padding: 60px;
-  position: relative;
+  align-items: center;
 }
 
-.hero-content {
-  width: 55%;
+/* LEFT SIDE */
+.hero-text {
+  width: 50%;
 }
 
-.hero-content h1 {
+.hero-text h1 {
   font-size: 48px;
-  margin-bottom: 20px;
+  color: #0b0f3a;
 }
 
-.hero-content p {
+.hero-text p {
+  margin: 20px 0;
   font-size: 16px;
+  color: #333;
   max-width: 500px;
-  margin-bottom: 30px;
 }
 
 .btn {
-  background: #0b0f2a;
+  display: inline-block;
+  padding: 12px 28px;
+  background: #0b0f3a;
   color: #fff;
-  padding: 12px 25px;
-  text-decoration: none;
   border-radius: 6px;
+  text-decoration: none;
 }
 
-/* PRODUCT PREVIEW */
-.product-preview {
+/* INLINE PRODUCTS */
+.home-products {
   display: flex;
-  margin-top: 50px;
   gap: 40px;
+  margin-top: 40px;
 }
 
-.product-card {
+.home-products div {
   text-align: center;
 }
 
-.product-card img {
-  height: 60px;
-  margin-bottom: 10px;
+.home-products img {
+  height: 40px;
 }
 
-/* RIGHT PANEL */
-.hero-side {
-  width: 45%;
-  position: relative;
+.home-products span {
+  display: block;
+  margin-top: 8px;
+  font-weight: 600;
 }
 
+/* RIGHT SIDE */
 .hero-image {
-  width: 100%;
-  border-radius: 10px;
+  width: 50%;
+  position: relative;
 }
 
 /* CONTACT BOX */
 .contact-box {
-  background: #0b0f2a;
-  color: #fff;
-  padding: 20px;
   position: absolute;
-  bottom: 20px;
-  right: 20px;
-  border-radius: 8px;
+  bottom: 0;
+  right: 0;
+  background: #0b0f3a;
+  color: #fff;
+  padding: 20px 25px;
+  border-radius: 10px;
+  width: 280px;
 }
 
-/* PRODUCTS PAGE */
-.products-page {
-  padding: 80px;
-}
-
-.products-page h1 {
-  margin-bottom: 40px;
-}
-
-.product-detail {
-  display: flex;
-  gap: 30px;
-  margin-bottom: 40px;
-}
-
-.product-detail img {
-  height: 80px;
+.contact-box p {
+  margin-bottom: 10px;
+  font-size: 14px;
 }
