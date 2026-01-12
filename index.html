@@ -1,48 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
   <title>Grow With Capital</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <header class="header">
-  <img src="assets/logo.png" alt="Grow With Capital" class="logo">
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="products.html">Products</a>
-    <a href="#">About</a>
-    <a href="#">Contact</a>
-  </nav>
+  <div class="container header-flex">
+    <img src="images/logo.png" class="logo" alt="Grow With Capital">
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="products.html">Our Products</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
 </header>
 
 <section class="hero">
-  <div class="hero-left">
-    <h1>Your Growth, Our Mission.</h1>
-    <p>
-      As a trusted financial products distributor, we help you grow your
-      wealth with confidence through expert solutions.
-    </p>
-    <a href="products.html" class="btn">Get Started</a>
+  <div class="container hero-grid">
 
-    <div class="products-icons">
-      <div>
-        <img src="assets/mutual-fund.png" alt="Mutual Funds">
-        <span>Mutual Funds</span>
-      </div>
-      <div>
-        <img src="assets/bonds.png" alt="Bonds">
-        <span>Bonds / NCDs</span>
+    <!-- LEFT SIDE -->
+    <div class="hero-text">
+      <h2>Financial Services</h2>
+      <h1>Where Your Financial Growth Begins</h1>
+      <p class="slogan">Your Growth, Our Mission</p>
+
+      <div class="products-inline">
+        <div>
+          <img src="images/mf.png" alt="Mutual Funds">
+          <span>Mutual Funds</span>
+        </div>
+        <div>
+          <img src="images/fd.png" alt="Fixed Deposit">
+          <span>Fixed Deposits</span>
+        </div>
+        <div>
+          <img src="images/bonds.png" alt="Bonds and NCDs">
+          <span>Bonds / NCDs</span>
+        </div>
       </div>
     </div>
-  </div>
 
-  <div class="hero-right">
-    <img src="assets/hero-bg.png" alt="Hero Image">
+    <!-- RIGHT SIDE CONTACT -->
+    <div class="hero-contact" id="contact">
+      <h3>Contact Us</h3>
+      <p><strong>📞</strong> 8291207894</p>
+      <p><strong>✉️</strong> info.growwithcapital@gmail.com</p>
+      <p>
+        <strong>📍</strong><br>
+        Udhyam Kunj, Rani Sati Marg,<br>
+        Malad East, Mumbai – 400097
+      </p>
+    </div>
+
   </div>
 </section>
+
+<footer class="footer">
+  <p>
+    Mutual fund investments are subject to market risks. Read all scheme related documents carefully.<br>
+    AMFI Registered Mutual Fund Distributor. Other investment products are subject to respective issuer risks.
+  </p>
+</footer>
 
 </body>
 </html>
