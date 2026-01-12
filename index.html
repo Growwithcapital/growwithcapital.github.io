@@ -2,72 +2,83 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Grow With Capital</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grow With Capital</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logo.png">
 </head>
 <body>
 
-<!-- HEADER -->
-<header class="header">
-    <div class="container header-flex">
-        <img src="logo.png" alt="Grow With Capital" class="logo">
-
+<!-- Header -->
+<header>
+    <div class="container header-container">
+        <img src="logo.png" alt="Grow With Capital Logo" class="logo">
         <nav>
-            <a href="#">Home</a>
-            <a href="#products">Products</a>
-            <a href="#about">About</a>
-            <a href="#contact">Contact</a>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
         </nav>
     </div>
 </header>
 
-<!-- HERO SECTION -->
-<section class="hero">
-    <div class="hero-overlay"></div>
+<!-- Hero Section -->
+<section id="home" class="hero">
+    <div class="hero-content">
+        <h1>Grow With Capital</h1>
+        <h2>Financial Services</h2>
+        <p>Your Growth, Our Mission.</p>
+        <p>Where your financial growth begins</p>
+        <a href="#products" class="btn">Get Started</a>
+    </div>
+</section>
 
-    <div class="container hero-content">
-        <div class="hero-text">
-            <span class="tagline">INTERNATIONAL</span>
-            <h1>BUSINESS</h1>
-
-            <p>
-                We provide trusted financial solutions including Mutual Funds,
-                Fixed Deposits, Bonds and NCDs to help you grow securely.
-            </p>
-
-            <a href="#contact" class="btn">Get Started</a>
+<!-- Products Section -->
+<section id="products" class="products">
+    <h2>Our Products</h2>
+    <div class="product-grid">
+        <div class="product-item">
+            <img src="mutualfund.png" alt="Mutual Funds">
+            <h3>Mutual Funds</h3>
+            <p>Long-term wealth creation through carefully selected mutual fund schemes.</p>
+        </div>
+        <div class="product-item">
+            <img src="fixeddeposit.png" alt="Fixed Deposits">
+            <h3>Fixed Deposits</h3>
+            <p>Secure and stable fixed deposit options with trusted institutions.</p>
+        </div>
+        <div class="product-item">
+            <img src="bonds.png" alt="Bonds">
+            <h3>Bonds</h3>
+            <p>Invest in bonds for a safe and consistent return on your capital.</p>
+        </div>
+        <div class="product-item">
+            <img src="ncd.png" alt="NCDs">
+            <h3>Non-Convertible Debentures</h3>
+            <p>High-yield NCDs to grow your portfolio efficiently.</p>
         </div>
     </div>
 </section>
 
-<!-- PRODUCTS -->
-<section class="products" id="products">
-    <div class="container">
-        <h2>Our Products</h2>
-
-        <div class="product-grid">
-            <div class="card">
-                <h3>Mutual Funds</h3>
-                <p>Long-term wealth creation with expert-selected funds.</p>
-            </div>
-
-            <div class="card">
-                <h3>Fixed Deposits</h3>
-                <p>Safe and stable investment options.</p>
-            </div>
-
-            <div class="card">
-                <h3>Bonds & NCDs</h3>
-                <p>Regular income instruments with higher returns.</p>
-            </div>
-        </div>
-    </div>
+<!-- About Section -->
+<section id="about" class="about">
+    <h2>About Us</h2>
+    <p>We provide trusted financial solutions including Mutual Funds, Fixed Deposits, Bonds, and NCDs to help you grow securely.</p>
 </section>
 
-<!-- FOOTER -->
-<footer class="footer">
-    <p>© 2026 Grow With Capital. All Rights Reserved.</p>
+<!-- Contact Section -->
+<section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>Email: <a href="mailto:info.growwithcapital@gmail.com">info.growwithcapital@gmail.com</a></p>
+    <p>Phone: <a href="tel:+918291207894">8291207894</a></p>
+    <p>Address: Udhyam Kunj, Rani Sati Marg, Malad East, Mumbai 400097</p>
+</section>
+
+<!-- Footer -->
+<footer>
+    <p>&copy; 2026 Grow With Capital. All Rights Reserved.</p>
 </footer>
 
 </body>
