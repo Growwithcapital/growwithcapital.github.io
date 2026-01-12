@@ -39,6 +39,7 @@ body {
   display: flex;
   align-items: center;
   gap: 40px;
+  min-height: 80vh;
 }
 
 .hero-left {
@@ -86,10 +87,16 @@ body {
   flex: 1;
 }
 
+.hero-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .hero-right img {
   width: 100%;
+  max-width: 520px;
   height: auto;
-  max-height: 420px;
   object-fit: contain;
 }
 
